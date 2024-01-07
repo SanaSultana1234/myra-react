@@ -1,0 +1,13 @@
+@import "colors";
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $first;
+    div {
+        max-height: 80vh;
+        max-width: 500px;
+        border-radius: 10px;
+    }
+}
